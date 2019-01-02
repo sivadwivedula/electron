@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+div{
+  height: 50%;
+  width: 50%;
+  top:50%;
+  left: 50%;
+  transform: translate3d(-50%,-50%, 0);
+  position: absolute;
+}
+
+
+    </style>
+   
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" 
+         href = "../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <title>Hello World!</title>
+  </head>
+  <body >
+    
+   
+    
+
+    <div>
+   user id <input type="text" id="userid" style="margin: 50px"/><br>
+    password <input type="password" id= "password"style="margin:50px"></input><br>
+    name <input type="text" id="name" style="margin: 50px"/><br>
+    age <input type="text" id= "age"style="margin:50px"></input><br>
+    <button class="btn btn-primary btn-lg" id ="go"  style="margin:50px">GO</button>
+    </div>
+
+    <script>
+  
+            require('./signup.js')
+          </script>
+  </body>
+</html>
